@@ -1,7 +1,7 @@
 {
-  "name": "serverless-bundle",
-  "version": "4.2.0",
-  "description": "An extension of the serverless-webpack plugin that bundles your ES6 + TypeScript Node.js Lambda functions.",
+  "name": "@kopa-tech/serverless-bundle",
+  "version": "1.0.0",
+  "description": "An extension of the serverless-webpack plugin that bundles your ES6 + TypeScript Node.js Lambda functions. All credit to https://github.com/AnomalyInnovations/serverless-bundle.",
   "main": "index.js",
   "scripts": {
     "changelog": "lerna-changelog",
@@ -24,7 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnomalyInnovations/serverless-bundle.git"
+    "url": "git+https://github.com/kopa-tech/serverless-bundle.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Jay V <air@live.ca>",
   "license": "MIT",

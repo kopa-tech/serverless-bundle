@@ -175,7 +175,7 @@ function tsLoader() {
 function loaders() {
   const jsRule = {
     test: /\.js$/,
-    exclude: /node_modules/,
+    exclude: /node_modules\/(?!@kopa-tech)/,
     use: [babelLoader()]
   };
 
